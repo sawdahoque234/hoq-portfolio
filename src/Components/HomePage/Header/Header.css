@@ -1,0 +1,54 @@
+.topbar ul li a {
+    text-transform: uppercase;
+    font-weight: 600px;
+    font-size: 15px;
+  }
+  
+  .topbar ul li {
+    position: relative;
+  }
+  
+  .topbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: #009688;
+    position: absolute;
+    left: 0;
+    transition: 0.7s;
+  }
+  
+  .topbar ul li:hover::after {
+    width: 80%;
+  }
+ 
+ 
+  
+  
+  
+  
+
+  .btn-outline-secondary {
+    border-radius: 10px;
+    width: 150px;
+    
+}
+.btn-outline-secondary:hover{
+  transition: 1s;
+
+}
+.btn-outline-success:hover{
+  transition: 1s;
+
+}
+  .btn-outline-success {
+    border-radius: 10px;
+    width: 100px;
+
+}
+
+.navbar-toggler{
+  background: white;
+}
+ 
+  

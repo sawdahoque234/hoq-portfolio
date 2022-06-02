@@ -1,0 +1,44 @@
+.card button{
+    text-align: center;
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white
+
+}
+.card button:hover{
+  transition: 1s;
+
+}
+.card-body{
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+
+}
+
+.card-footer {
+    background-color: black;
+}
+
+.card{
+   
+    height: 400px;
+    box-shadow: 5px 5px 5px 5px light lightgray;
+    transition: transform 0.3s;
+    
+    
+}
+.card-img-top{
+    height: 190px;
+}
+.card:hover{
+    transform: translateY(-1em) translateX(-0.3em);
+    background-color: aqua;
+    
+    transition: 1s;
+
+  }
+

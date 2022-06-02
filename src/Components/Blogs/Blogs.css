@@ -1,0 +1,29 @@
+.Card {
+    width: 320px;
+    border: 1px solid white;
+    height: 300px;
+    transition: .3s;
+    background-color: rgba(65, 24, 24, 0.33);
+
+    border-radius: 10px;
+
+}
+.image img{
+    height: 180px;
+    width: 318px;
+    border-radius: 10px 10px 0px 0px;
+}
+  
+  .Card:hover {
+    transform: translateY(-1em) translateX(-0.3em);
+    transition: 1s;
+  }
+
+  .title{
+      height: 50px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+
+  }

@@ -1,0 +1,13 @@
+.about{
+    background-color: rgba(3, 2, 27, 0.703);
+
+}
+.card1{
+    background-color: rgb(242, 240, 235);
+}
+.card1:hover{
+    transform: translateY(-1em) translateX(-0.3em);
+    background-color: white;
+    transition: 1s;
+
+  }
