@@ -20,7 +20,7 @@ Hello! I am Sawda Hoque student of Computer Science & Engineering.I am a Front-E
 <p>
 <span className='text-primary'>Programming Language:</span> JavaScript(ES6) <br />
 <span className='text-primary'>Front End:</span> React, HTML5, CSS3, Bootstrap5,Tailwind CSS, Material-UI <br />
-<span className='text-primary'>Familiar With:</span>Redux, SASS, Typescript, NextJs, JWT <br />
+<span className='text-primary'>Familiar With:</span>Redux, SASS, Typescript, NextJs, JWT,REST API,Figma. <br />
 <span className='text-primary'>Tools:</span> Vs Code, Git, Heroku, Netlify, Firebase, Webpack
 </p>
  
