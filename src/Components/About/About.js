@@ -20,24 +20,37 @@ Hello! I am Sawda Hoque student of Computer Science & Engineering.I am a Front-E
 <p>
 <span className='text-primary'>Programming Language:</span> JavaScript(ES6) <br />
 <span className='text-primary'>Front End:</span> React, HTML5, CSS3, Bootstrap5,Tailwind CSS, Material-UI <br />
-<span className='text-primary'>Familiar With:</span>Redux, SASS, Typescript, NextJs, JWT,REST API,Figma. <br />
-<span className='text-primary'>Tools:</span> Vs Code, Git, Heroku, Netlify, Firebase, Webpack
+<span className='text-primary'>Familiar With:</span>Redux, SASS, Typescript,REST API,Figma, Data Structure and Algorithm(Basic). <br />
+<span className='text-primary'>Tools:</span> Vs Code, Git, Heroku, Netlify, Firebase, Webpack.
 </p>
  
 </div>
 {/* education.... */}
 
-<div className="card1 col-md-6  text-dark col-sm-12 py-"data-aos="fade-left" data-aos-duration="1500" style={{marginTop:'100px',marginLeft:'40px' ,borderRadius:'20px'}}>
-<h1 className='text-dark topbar ul li text'>Education</h1>
+<div className="card1 col-md-6  text-dark col-sm-12 py-2"data-aos="fade-left" data-aos-duration="1500" style={{marginTop:'100px',marginLeft:'40px' ,borderRadius:'20px'}}>
+<h2 className='text-dark topbar ul li text'>Education</h2>
 <h5 >B.Sc in Computer Science and Engineering. </h5>
 <em>Graduated in 2022.</em>
 <br />
 <h5 className='fw-bold'>Port City International University.</h5><br />
-<h1 className='text-dark topbar ul li text'>Training</h1>
+<h2 className='text-dark topbar ul li text'>Training</h2>
 <h5>Complete Web Development With Jhankar Mahbub. </h5>
     <h6 className='fw-bold'>Programming Hero -
 <a href="https://drive.google.com/file/d/1JtBqs6OTxYpyLAjgThyHcCQyly59vTG5/view?usp=sharing">
 <em>Certificate.</em>
+</a>
+</h6>
+<br />
+{/* problem */}
+<h2 className='text-dark topbar ul li text'>Problem Solving</h2>
+    <h6 className='fw-bold'>HakerRank -
+<a href="https://www.hackerrank.com/sawdahoque6066">
+<em>Running</em>
+</a>
+</h6>
+    <h6 className='fw-bold'>Edabit -
+<a href="https://edabit.com/user/nXpkXiTgerfw6x6WT">
+<em>Running</em>
 </a>
 </h6>
 
