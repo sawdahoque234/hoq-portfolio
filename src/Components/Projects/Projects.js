@@ -8,12 +8,13 @@ const Projects = (props) => {
 
   return (
     <div className="col-md-4 col-12">
-      <div class="card mt-3 mb-5">
+     <a href={live}>
+     <div class="card mt-3 mb-5">
         <img class="card-img-top" data-aos="zoom-in"
             data-aos-duration="500" src={img} alt="" />
         <div class="card-body">
           <h5 class="card-title">{name}</h5>
-          <p class="card-text">{des}</p>
+          <p class="card-text" style={{fontWeight:'400'}}>{des}</p>
         </div>
         <div class="card-body  d-flex justify-content-center ">
           <a href={git} target="blank">
@@ -29,6 +30,7 @@ const Projects = (props) => {
           </a>
         </div>
       </div>
+     </a>
     </div>
   );
 };

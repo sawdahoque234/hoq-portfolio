@@ -13,6 +13,10 @@
   transition: 1s;
 
 }
+a:hover{
+    list-style: none;
+    text-decoration: none;
+}
 .card-body{
     background-color: rgba(0, 0, 0, 0.85);
     color: white;
