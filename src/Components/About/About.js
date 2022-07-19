@@ -40,7 +40,7 @@ const About = () => {
             Typescript,REST API,Figma,Contentful CMS, Data Structure and
             Algorithm(Basic). <br />
             <span className="text-primary">Tools:</span> Vs Code, Git, Heroku,
-            Netlify, Firebase, Webpack.
+            Netlify, Firebase,Vercel, Webpack.
           </p>
         </div>
         {/* education.... */}
