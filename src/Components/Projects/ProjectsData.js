@@ -40,7 +40,7 @@ const ProjectData = () => {
       live: "https://confident-mclean-a0b196.netlify.app/",
     },
     {
-      name: "Dental Care",
+      name: "Book Store",
       img: book,
       des: "This is a HTML,CSS,JS landing page website.",
       git: "https://github.com/sawdahoque234/online-book-store",
