@@ -3,6 +3,8 @@ import react from "../../images/react.png";
 import blog from "../../images/blog.png";
 import travel from "../../images/t1.png";
 import d from "../../images/d1.png";
+import z from "../../images/z.png";
+import draw from "../../images/dr.png";
 import book from "../../images/bookstore1.png";
 
 import React from "react";
@@ -11,6 +13,13 @@ import Header from "../HomePage/Header/Header";
 
 const ProjectData = () => {
   const projects = [
+    {
+      name: "HomeLand",
+      img: z,
+      des: "A MERN based web app using React, Express.js, Mongodb,TailwindCss,Firebase auth",
+      git: "https://github.com/sawdahoque234/homeland",
+      live: "https://homelandproject-bb634.web.app/",
+    },
     {
       name: "E-Nursery",
       img: enursery,
@@ -38,6 +47,13 @@ const ProjectData = () => {
       des: "This is a MERN based project",
       git: "https://github.com/sawdahoque234/Dental-care-website",
       live: "https://confident-mclean-a0b196.netlify.app/",
+    },
+    {
+      name: "DrawOwn",
+      img: draw,
+      des: "This is a simple Drawing app useing React,Firebase auth",
+      git: "https://github.com/sawdahoque234/drawingapp",
+      live: "https://aesthetic-crisp-bf9b8b.netlify.app/",
     },
     {
       name: "Book Store",
