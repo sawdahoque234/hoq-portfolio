@@ -5,6 +5,8 @@ import travel from "../../images/t1.png";
 import d from "../../images/d1.png";
 import z from "../../images/z.png";
 import draw from "../../images/dr.png";
+import salon from "../../images/salon.png";
+import car from "../../images/car.png";
 import book from "../../images/bookstore1.png";
 
 import React from "react";
@@ -21,11 +23,26 @@ const ProjectData = () => {
       live: "https://homelandproject-bb634.web.app/",
     },
     {
+      name: "Salon22",
+      img: salon,
+      des: "A MERN based application for men's.Using react.js,firebase auth,Material ui.",
+      git: "https://github.com/sawdahoque234/salon22",
+      live: "https://salon22-c16e1.web.app/",
+    },
+
+    {
       name: "E-Nursery",
       img: enursery,
       des: "A MERN based web app using React, Node.js, Mongodb, Material-UI,Firebase, Heroku",
       git: "https://github.com/sawdahoque234/enursery-website-client",
       live: "https://my-enursery.web.app/home",
+    },
+    {
+      name: "AutoImage",
+      img: car,
+      des: "A MERN based web app using React, Node.js, Mongodb, Material-UI,Firebase, Heroku",
+      git: "https://github.com/sawdahoque234/carshop",
+      live: "https://carshop-8424b.web.app/",
     },
     {
       name: "Blog App",
