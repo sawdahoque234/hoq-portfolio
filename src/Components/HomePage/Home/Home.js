@@ -40,7 +40,7 @@ const Home = () => {
                     Hire Me
                   </button>
                 </Link>
-                <a href="https://drive.google.com/file/d/19rnNAruEttOLzLBXeIV9dj--p4NRhLnZ/view?usp=sharing">
+                <a href="https://drive.google.com/drive/folders/1CNIYXYtHqD-cbRmgjG5y896godZ_vAFo?usp=sharing">
                   <button
                     type="button"
                     className="btn btn-outline-success px-1 mx-2 "
