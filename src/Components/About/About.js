@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "../HomePage/Header/Header";
 import "./About.css";
 
 const About = () => {
-  
   return (
     <div className="section">
       <Header></Header>
