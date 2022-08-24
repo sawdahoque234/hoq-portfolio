@@ -2,7 +2,7 @@ import enursery from "../../images/p1.png";
 import react from "../../images/react.png";
 import blog from "../../images/blog.png";
 import travel from "../../images/t1.png";
-import d from "../../images/d1.png";
+import gym from "../../images/g.png";
 import z from "../../images/z.png";
 import draw from "../../images/dr.png";
 import salon from "../../images/salon.png";
@@ -58,19 +58,20 @@ const ProjectData = () => {
       git: "https://github.com/sawdahoque234/travel-agent-client-side",
       live: "https://hoqtravel-agent.web.app/home",
     },
-    {
-      name: "Dental Care",
-      img: d,
-      des: "This is a MERN based project",
-      git: "https://github.com/sawdahoque234/Dental-care-website",
-      live: "https://confident-mclean-a0b196.netlify.app/",
-    },
+
     {
       name: "DrawOwn",
       img: draw,
       des: "This is a simple Drawing app useing React,Firebase auth",
       git: "https://github.com/sawdahoque234/drawingapp",
       live: "https://aesthetic-crisp-bf9b8b.netlify.app/",
+    },
+    {
+      name: "Some React Project",
+      img: react,
+      des: "This is a collections of some react projects.",
+      git: "https://github.com/sawdahoque234/allreactproject",
+      live: "https://sawda-reactjs-project.netlify.app/",
     },
     {
       name: "Book Store",
@@ -80,11 +81,11 @@ const ProjectData = () => {
       live: "https://sawdahoque234.github.io/online-book-store/",
     },
     {
-      name: "Some React Project",
-      img: react,
-      des: "This is a collections of some react projects.",
-      git: "https://github.com/sawdahoque234/allreactproject",
-      live: "https://sawda-reactjs-project.netlify.app/",
+      name: "BeStrong",
+      img: gym,
+      des: "This is a HTML,CSS,JS landing page website.",
+      git: "https://github.com/sawdahoque234/gym-website",
+      live: "https://sawdahoque234.github.io/gym-website/",
     },
   ];
   return (
@@ -99,7 +100,7 @@ const ProjectData = () => {
         </h1>
         <div className="row " data-aos="fade-right" data-aos-duration="1500">
           {projects.map((project) => (
-            <Projects project={project}></Projects>
+            <Projects project={project} />
           ))}
         </div>
       </div>

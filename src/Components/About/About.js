@@ -1,13 +1,9 @@
 import React, { useEffect } from "react";
 import Header from "../HomePage/Header/Header";
 import "./About.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 const About = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
+  
   return (
     <div className="section">
       <Header></Header>
