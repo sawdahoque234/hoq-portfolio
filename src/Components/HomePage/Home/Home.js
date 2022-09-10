@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import profile from "../../../images/tas2.png";
+import profile from "../../../images/t.png";
 import Header from "../Header/Header";
 import "./Home.css";
 import { Link } from "react-router-dom";
@@ -36,14 +36,14 @@ const Home = () => {
               </div>
               <div className="py-4">
                 <Link to="/contact">
-                  <button type="button" class="btn btn-outline-success">
+                  <button type="button" class="btn btn-outline-danger px-2">
                     Hire Me
                   </button>
                 </Link>
                 <a href="https://drive.google.com/drive/folders/1CNIYXYtHqD-cbRmgjG5y896godZ_vAFo?usp=sharing">
                   <button
                     type="button"
-                    className="btn btn-outline-success px-1 mx-2 "
+                    className="btn btn-outline-danger px-2 mx-2 "
                   >
                     Resume
                   </button>
