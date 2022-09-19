@@ -1,9 +1,9 @@
 import enursery from "../../images/p1.png";
-import react from "../../images/react.png";
 import blog from "../../images/blog.png";
 import travel from "../../images/t1.png";
 import gym from "../../images/g.png";
 import z from "../../images/z.png";
+import slack from "../../images/slack.png";
 import draw from "../../images/dr.png";
 import salon from "../../images/salon.png";
 import car from "../../images/car.png";
@@ -29,6 +29,13 @@ const ProjectData = () => {
       git: "https://github.com/sawdahoque234/salon22",
       live: "https://salon22-c16e1.web.app/",
     },
+    {
+      name: "AutoImage",
+      img: car,
+      des: "A MERN based web app using React, Node.js, Mongodb, Material-UI,Firebase, Heroku",
+      git: "https://github.com/sawdahoque234/carshop",
+      live: "https://carshop-8424b.web.app/",
+    },
 
     {
       name: "E-Nursery",
@@ -37,13 +44,7 @@ const ProjectData = () => {
       git: "https://github.com/sawdahoque234/enursery-website-client",
       live: "https://my-enursery.web.app/home",
     },
-    {
-      name: "AutoImage",
-      img: car,
-      des: "A MERN based web app using React, Node.js, Mongodb, Material-UI,Firebase, Heroku",
-      git: "https://github.com/sawdahoque234/carshop",
-      live: "https://carshop-8424b.web.app/",
-    },
+
     {
       name: "Blog App",
       img: blog,
@@ -60,19 +61,26 @@ const ProjectData = () => {
     },
 
     {
+      name: "slack",
+      img: slack,
+      des: "This is a single Homepage  using React and Styled Components",
+      git: "https://github.com/sawdahoque234/singlehomepage",
+      live: "https://ornate-starburst-0d9314.netlify.app/",
+    },
+    {
       name: "DrawOwn",
       img: draw,
       des: "This is a simple Drawing app useing React,Firebase auth",
       git: "https://github.com/sawdahoque234/drawingapp",
       live: "https://aesthetic-crisp-bf9b8b.netlify.app/",
     },
-    {
-      name: "Some React Project",
-      img: react,
-      des: "This is a collections of some react projects.",
-      git: "https://github.com/sawdahoque234/allreactproject",
-      live: "https://sawda-reactjs-project.netlify.app/",
-    },
+    // {
+    //   name: "Some React Project",
+    //   img: react,
+    //   des: "This is a collections of some react projects.",
+    //   git: "https://github.com/sawdahoque234/allreactproject",
+    //   live: "https://sawda-reactjs-project.netlify.app/",
+    // },
     {
       name: "Book Store",
       img: book,
