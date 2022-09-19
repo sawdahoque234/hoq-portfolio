@@ -7,6 +7,7 @@ import slack from "../../images/slack.png";
 import draw from "../../images/dr.png";
 import salon from "../../images/salon.png";
 import car from "../../images/car.png";
+import gpt from "../../images/gpt.png";
 import book from "../../images/bookstore1.png";
 
 import React from "react";
@@ -66,6 +67,13 @@ const ProjectData = () => {
       des: "This is a single Homepage  using React and Styled Components",
       git: "https://github.com/sawdahoque234/singlehomepage",
       live: "https://ornate-starburst-0d9314.netlify.app/",
+    },
+    {
+      name: "GPT-3",
+      img: gpt,
+      des: "This is a Modern UI/UX Project using react.",
+      git: "https://github.com/sawdahoque234/gpt-3",
+      live: "https://scintillating-cat-bda767.netlify.app/",
     },
     {
       name: "DrawOwn",
