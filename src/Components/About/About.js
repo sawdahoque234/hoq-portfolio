@@ -51,34 +51,50 @@ const About = () => {
           }}
         >
           <h2 className="text-dark topbar ul li text">Education</h2>
-          <h5>B.Sc in Computer Science and Engineering. </h5>
-          <em>Graduated in 2022.</em>
-          <br />
-          <h5 className="fw-bold">Port City International University.</h5>
-          <br />
-          <h2 className="text-dark topbar ul li text">Training</h2>
-          <h5>Complete Web Development With Jhankar Mahbub. </h5>
-          <h6 className="fw-bold">
-            Programming Hero -
-            <a href="https://drive.google.com/file/d/1JtBqs6OTxYpyLAjgThyHcCQyly59vTG5/view?usp=sharing">
-              <em>Certificate.</em>
-            </a>
-          </h6>
-          <br />
+          <div style={{ textAlign: "left", marginLeft: "50px" }}>
+            <h5>B.Sc in Computer Science and Engineering. </h5>
+            <em>Graduated in 2022.</em>
+            <br />
+            <h5 className="fw-bold">Port City International University.</h5>
+            <br />
+          </div>
+
+          <div>
+            <h2 className="text-dark topbar ul li text">Training</h2>
+            <div style={{ textAlign: "left", marginLeft: "50px" }}>
+              <h5>1.Complete Web Development With Jhankar Mahbub. </h5>
+              <h6 className="fw-bold">
+                Programming Hero -
+                <a href="https://drive.google.com/file/d/1JtBqs6OTxYpyLAjgThyHcCQyly59vTG5/view?usp=sharing">
+                  <em>Certificate.</em>
+                </a>
+              </h6>
+              <h5>2.Think-in-a-Redux-way </h5>
+              <h6 className="fw-bold ">
+                Learn With Sumit-
+                <a href="https://drive.google.com/file/d/1u7h9qg3u0wFbkrhRt-cbBWvTeENWVSCs/view?usp=sharing">
+                  <em>Certificate.</em>
+                </a>
+              </h6>
+            </div>
+            <br />
+          </div>
           {/* problem */}
           <h2 className="text-dark topbar ul li text">Problem Solving</h2>
-          <h6 className="fw-bold">
-            HakerRank -
-            <a href="https://www.hackerrank.com/sawdahoque6066">
-              <em>Running</em>
-            </a>
-          </h6>
-          <h6 className="fw-bold">
-            Edabit -
-            <a href="https://edabit.com/user/nXpkXiTgerfw6x6WT">
-              <em>Running</em>
-            </a>
-          </h6>
+          <div style={{ textAlign: "left", marginLeft: "50px" }}>
+            <h6 className="fw-bold">
+              HakerRank -
+              <a href="https://www.hackerrank.com/sawdahoque6066">
+                <em>Running</em>
+              </a>
+            </h6>
+            <h6 className="fw-bold">
+              Edabit -
+              <a href="https://edabit.com/user/nXpkXiTgerfw6x6WT">
+                <em>Running</em>
+              </a>
+            </h6>
+          </div>
         </div>
       </div>
     </div>
