@@ -8,6 +8,7 @@ import draw from "../../images/dr.png";
 import salon from "../../images/salon.png";
 import car from "../../images/car.png";
 import gpt from "../../images/gpt.png";
+import mcq from "../../images/mcq.png";
 import book from "../../images/bookstore1.png";
 
 import React from "react";
@@ -81,6 +82,13 @@ const ProjectData = () => {
       des: "This is a simple Drawing app useing React,Firebase auth",
       git: "https://github.com/sawdahoque234/drawingapp",
       live: "https://aesthetic-crisp-bf9b8b.netlify.app/",
+    },
+    {
+      name: "MCQ App",
+      img: mcq,
+      des: "This is a simple MCQ app using HTML,CSS,Javascript",
+      git: "https://github.com/sawdahoque234/simple-MCQ-App",
+      live: "https://sawda-hoque-mcq-app.netlify.app/",
     },
     // {
     //   name: "Some React Project",
