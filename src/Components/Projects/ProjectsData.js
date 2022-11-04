@@ -84,9 +84,9 @@ const ProjectData = () => {
       live: "https://aesthetic-crisp-bf9b8b.netlify.app/",
     },
     {
-      name: "MCQ App",
+      name: "MCQ Test",
       img: mcq,
-      des: "This is a simple MCQ app using HTML,CSS,Javascript",
+      des: "This is a simple MCQ test using HTML,CSS,Javascript",
       git: "https://github.com/sawdahoque234/simple-MCQ-App",
       live: "https://sawda-hoque-mcq-app.netlify.app/",
     },
